@@ -1,0 +1,29 @@
+body{
+	font-size: 12px;
+	color: gray;
+	font-family: Arial;
+	line-height: 2em;
+}
+a{
+	color: #727272;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.top{
+	
+	font-size: 14px;color:#b9f605;
+	font-weight: bold;
+}
+table tr td table tr td a{
+	text-decoration: none;
+	color: white;
+}
+table tr td table tr td a:hover{
+	color: #b9f605;
+	text-decoration: none;
+}
+#last{
+	color: #fdb306;
+}
