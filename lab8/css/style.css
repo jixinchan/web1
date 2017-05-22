@@ -1,0 +1,271 @@
+/*通用样式*/
+*{
+	margin: 0 auto;
+	padding: 0px;
+	border-width: 0px;
+}
+#wrap{
+	align:center;
+	font: 12px "宋体";
+	color: #522a06;
+	padding: 0px;
+}
+img{
+	border-width: 0px;
+}
+/*li{
+	list-style-type: none;
+}*/
+a{
+	text-decoration: none;
+}
+a:link{
+	color: #522a06;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:visited{
+	color: #522a06;
+}
+body{
+	background-image: url(../images/bodybg.gif);
+}
+
+
+.li li{
+	line-height: 30px;
+}
+
+
+
+
+/*页头部分*/
+#header{
+	height: 205px;
+	background-image: url(../images/bg.gif);
+	background-position: center top;
+}
+#banner{
+	width: 1000px;
+	height: 164px;
+	align:center;
+}
+#logo{
+	position: absolute;
+	left: 25px;
+	top: 38px;
+}
+#nav{
+	height: 40px;
+	background-image: url(../images/nav.jpg);
+}
+.nav_body{
+	width: 1000px;
+	align:center;
+}
+.nav_content{
+	width: 800px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 40px;
+	position: absolute;
+	left: 70px;
+	float: left;
+}
+.nav_content a{
+	width: 700px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 40px;
+}
+.nav_content a:hover{
+	color: #f9f603;
+	text-decoration: none;
+}
+.nav_search{
+	width: 200px;
+	height: 30px;
+	float: left;
+	position: absolute;
+	top: 175px;
+	right: 180px;
+}
+.nav_search1{
+	width: 140px;
+	height: 19px;
+	background:#f8f5ee;
+	float: left;
+}
+.nav_search2{
+	width: 44px;
+	height: 19px;
+	background:#000;
+	color: #fff;
+	border:1px solid #f8f5ee;
+	float: left;
+}
+
+
+
+
+
+
+/*这里是主体部分*/
+#content{
+	width:1360px;
+	clear:both;
+}
+
+
+/*top*/
+#content_top{
+	margin-left: 130px;
+}
+.news_pic{
+	width: 335px;
+	height: 243px;
+	background-image: url(../images/news_bg.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+.news_pic_bg{
+	width: 300px;
+	height: 200px;
+	float: center;
+	margin-left:12px;
+	margin-top: 12px;
+}
+.news_list{
+	width: 350px;
+	margin-left: 60px;
+	float: left;
+}
+
+.s425{
+	float:right;
+}
+.news_announce{
+	width: 335px;
+	float: right;
+	margin-left: 40px;
+	margin-right: 100px;
+
+}
+.pic2{
+	margin-left: 100px;
+	margin-top: 10px;
+}
+.news_announce_bg{
+	width: 277px;
+	height: 210px;
+	background-image: url(../images/board_bg.png);
+	background-repeat: no-repeat;
+	margin-left: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.right{
+	position: relative;
+	left: 30px;
+}
+
+
+
+/*left*/
+#content_bottom_left{
+	width: 750px;
+	float: left;
+	margin-left: 140px;
+}
+.academic{
+	width: 361px;
+	float: left;
+
+}
+.content_bottom_left_more{
+	float: right;
+	position: relative;
+	top: 5px;
+}
+.content_bottom_left_pic{
+	height: 54px;
+}
+.book_news{
+	width: 361px;
+	float: left;
+	margin-left: 25px;
+}
+.fengcai{
+	width: 740px;
+	clear: both;
+}
+.fengcaih{
+
+}
+.fengcai1234{
+	background-image: url(../images/fengcai_bg2.png);
+	background-repeat: no-repeat;
+	padding: 18px;
+	height: 145px;
+	margin-left: 30px;
+}
+.fengcaifloat{
+	float: left;
+	margin: 4px;
+}
+
+
+
+/*right*/
+#content_bottom_right{
+	width: 340px;
+	margin-top: 20x;
+	float:right; 
+	margin-right: 95px;
+	margin-left: 25px;
+}
+.c_b_r_head{
+	position: relative;
+	top:40px;
+	float: left;
+	margin-left: 100px;
+}
+.c_b_r_content{
+	width: 362px;
+	height: 400px;
+	background-image: url(../images/show_bg.png);
+	background-repeat: no-repeat;
+	float: left;
+	position: relative;
+	top:50px;
+	left: 20px;
+}
+.c_b_r_mingjia{
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.c_b_r_wenzi{
+	width: 230px;
+	margin-left: 25px;
+	line-height: 20px;
+}
+.c_b_r_wenziname{
+	color: red;
+	font-size: 15px;
+	font-weight: bolder;
+}
+
+
+
+/*页脚部分*/
+.page_bottom{
+	height: 120px;
+	clear: both;
+	background-image: url(../images/foot.gif);
+	margin-top: 20px;
+}
+.p_b_lianjie {
+	margin-bottom: 20px
+}
