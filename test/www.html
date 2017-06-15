@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	
+</head>
+<body>
+
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	/*一*/
+		.div{
+			border: 1px solid black;
+		}
+		#wrap{
+			height: 554px;
+			width: 608px;
+		}
+		#top{
+			height: 100px;
+			width: 608px;
+		}
+		#center{
+			height: 300px;
+			width: 608px;
+		}
+		#bottom{
+			height: 150px;
+			width: 608px;
+		}
+		.center_l{
+			height: 300px;
+			width: 150px;
+			float: left;
+		}
+		.center_c{
+			height: 300px;
+			width: 300px;
+			float: left;
+		}
+
+		/*二*/
+		div{
+			width: 220px;
+			height: 180px;
+		}
+		#one{
+			background: #33CCFF;
+			float: left;
+		}
+		#two{
+			background: #66CC33;
+			float: left;
+			position:relative;
+			right: 160px;
+			top: 40px;
+		}
+		#three{
+			background: #996699;
+			float: left;
+			position:relative;
+			right: 300px;
+			top: 80px;
+		}
+		#big{
+			width: 800px;
+			height: 800px;
+		}
+
+		/*四*/
+		#out{
+			width: 1000px;
+			height: 320px;
+			border: 2px solid blue;
+		}
+		.pic{
+			margin: 10px;
+			float: left;
+		}
+		.text{
+			width: 760px;
+			height: 320px;
+			float: left;
+		}
+		.name{
+			color: blue;
+			line-height: 50px;
+			font-size: 20px;
+			font-weight:bolder;
+		}
+		.date{			
+			color: red;
+			line-height: 40px;
+			font-weight: bolder;
+		}
+		.duanluo{
+			text-indent: 2em;
+			line-height: 30px;
+		}
+	</style>
+</head>
+<body>
+<!-- 一 -->
+<div id="wrap" class="div">
+	<div id="top"></div>
+	<div id="center" class="div">
+		<div class="center_l div"></div>
+		<div class="center_c div"></div> 
+		<div class="center_l div"></div> 
+	</div>
+	<div id="bottom" class="div"></div>
+</div>
+
+<!-- 二 -->
+<div id="big">
+<div id="one"></div>
+<div id="two"></div>
+<div id="three"></div>
+</div>
+<!-- 三 -->
+<form action="" method="get/post">
+	用户名：<input type="text" name="name"><br/><br/>
+	密码：<input type="password" name="pwd"><br/><br/>
+	<input type="button" name="button" value="登录">
+	<input type="button" name="button" value="取消">
+</form>
+<!-- 四 -->
+<div id="out">
+	<div class="pic">
+		<img src="text.jpg">
+	</div>
+	<div class="text">
+		<p class="name">姓名：宋仲基</p>
+		<p class="date">生日：1985年9月19日</p>
+		<p class="duanluo">宋仲基，1985年9月19日出生于韩国大田广域市，韩国演员、主持人。2008年出演电影《霜花店》进入演艺圈。2009年在音乐节目Music Bank中担任主持，后在艺能节目《Runnig man》中担任固定嘉宾。2010年出演电视剧《成均馆绯闻》具龙河一角，获得KBS演技大赏最佳人气奖。2011年在电视剧《树大根深》中饰演青年世宗，获得SBS演技大赏PD奖。宋仲基与2013年8月27日入伍，于2015年5月26日退伍。2016年2月主演KBS水木剧《太阳的后裔》，凭借该剧获得第52届百想艺术大赏电视部门最佳男演员提名。</p>
+	</div>
+</div>
+</body>
+</html>
