@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>计算器</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	*{
+		font-size: 30px;
+		font-weight: bold;
+	}
+	td{
+		width: 90px;
+		height: 90px;
+	}
+	button{
+		width: 70px;
+		height: 70px;
+	}
+	#result{
+		text-align: right;
+	}
+	</style>
+	<script type="text/javascript" src="4.js"></script>
+</head>
+<body>
+	<table border="2" width="385px" height="430px" cellpadding="7px">
+		<tr>
+			<td width="250px" colspan="3" id="result">0</td>
+			<td><button type="button" value="C" onclick="clearData()">C</button></td>
+		</tr>
+		<tr>
+			<td><button type="button" value="1" id="1" onclick="showData(1)">1</button></td>
+			<td><button type="button" value="2" id="2" onclick="showData(2)">2</button></td>
+			<td><button type="button" value="3" id="3" onclick="showData(3)">3</button></td>
+			<td><button type="button" value="+" id="+" onclick="showData('+')">+</button></td>
+		</tr>
+		<tr>
+			<td><button type="button" value="4" id="4" onclick="showData(4)">4</button></td>
+			<td><button type="button" value="5" id="5" onclick="showData(5)">5</button></td>
+			<td><button type="button" value="6" id="6" onclick="showData(6)">6</button></td>
+			<td><button type="button" value="-" id="-" onclick="showData('-')">-</button></td>
+		</tr>
+		<tr>
+			<td><button type="button" value="7" id="7" onclick="showData(7)">7</button></td>
+			<td><button type="button" value="8" id="8" onclick="showData(8)">8</button></td>
+			<td><button type="button" value="9" id="9" onclick="showData(9)">9</button></td>
+			<td><button type="button" value="*" id="*" onclick="showData('*')">*</button></td>
+		</tr>
+		<tr>
+			<td><button type="button" value="0" id="0" onclick="showData(0)">0</button></td>
+			<td><button type="button" value="." id="." onclick="showData('.')">.</button></td>
+			<td><button type="button" value="=" id="=" onclick="calculate()">=</button></td>
+			<td><button type="button" value="/" id="/" onclick="showData('/')">/</button></td>
+		</tr>
+	</table>
+</body>
+</html>
+
